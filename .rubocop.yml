@@ -1,0 +1,31 @@
+require:
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+RSpec/VerifiedDoubles:
+  Enabled: false
+
+RSpec/MissingExampleGroupArgument:
+  Enabled: false
+
+RSpec/ContextWording:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Max: 20
+
+RSpec/DescribeMethod:
+  Enabled: false
+
+RSpec/DescribeClass:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 5
